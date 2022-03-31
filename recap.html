@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>recap</title>
+</head>
+<body>
+<p style="text-align: center"><b>Livraison sandwich</b></p>
+<form style="text-align: center" method="POST" action="recap.php" enctype="multipart/form-data">
+    <label for="nom">Nom</label>
+    <input type="text" required id="nom" name="nom"><br>
+    <label for="prenom">Pr&eacute;nom</label>
+    <input type="text" id="prenom" required name="prenom"><br>
+    <label for="number">Nombre sandwich</label>
+    <input id="number" type="number" name="quantite"><br>
+    <label for="adresse">Adresse</label>
+    <textarea id="adresse" name="adresse"></textarea><br>
+    <label for="type">Type sandwich</label>
+    <select id="type" name="type">
+        <option>poulet</option>
+        <option>thon</option>
+        <option>viande</option>
+        <option>escalope</option>
+    </select><br>
+    <label>Ingredients</label>
+    <input id="harissa"type="checkbox" name="harissa">
+    <label for="harissa">Harissa</label>
+    <input type="checkbox" id="salad" name="salad">
+    <label for="salad">Salade</label>
+    <input id="mayo" type="checkbox" name="mayo">
+    <label for="mayo">Mayo</label><br>
+    <label for="file">CIN</label>
+    <input type="file" id="file" name="cin"><br>
+    <input type="submit" value="Confirmer" id="confirmer">
+</form>
+</body>
+</html>
